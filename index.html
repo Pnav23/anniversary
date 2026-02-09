@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-y: auto;
   }
 
   .page {
@@ -30,6 +30,10 @@
 
   .page.active {
     display: block;
+  }
+  #photos {
+  max-height: 85vh;
+  overflow-y: auto;
   }
 
   h2 {
@@ -161,4 +165,5 @@ function go(page) {
 
 </body>
 </html>
+
 
